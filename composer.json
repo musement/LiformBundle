@@ -12,6 +12,12 @@
     "autoload": {
         "psr-4": { "Limenius\\LiformBundle\\": "" }
     },
+    "repositories": [
+        {                                                                       
+            "type": "vcs",                                                      
+            "url": "https://github.com/musement/Liform"                         
+        }    
+    ],
     "require": {
         "limenius/liform": "^0.13.0"
     },
